@@ -1,0 +1,24 @@
+{
+  "name": "romotonepali",
+  "version": "1.0.0",
+  "description": "Node module to convert romonised nepali to unicode Nepali characters",
+  "main": "index.js",
+  "scripts": {
+    "test": "testromotonepali"
+  },
+  "repository": {
+    "type": "git",
+    "url": "romoToNepali"
+  },
+  "keywords": [
+    "unicode",
+    "romonised",
+    "nepali",
+    "nepal"
+  ],
+  "author": "Sujan Poudel",
+  "license": "MIT",
+  "bin": {
+    "snippet": "./index.js"
+  }
+}
