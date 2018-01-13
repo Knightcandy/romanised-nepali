@@ -16,6 +16,10 @@ function startServer()
             res.writeHead(200);
             var converted=translate(data.data,data.smartConvert);
             res.end(converted);
+            //  console.log("raw input:"+data.data);
+            //  console.log("converting with smartConvert="+data.smartConvert);
+            // console.log("send after converted"+converted+"|");
+
           });
         } else {
           res.writeHead(404);
@@ -26,4 +30,7 @@ function startServer()
 export function convert(raw,smartConvert)
 {
     return translate(raw,smartConvert);
+}
+if (require.main === module) {
+    startServer();
 }
