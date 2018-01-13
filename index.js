@@ -1,11 +1,6 @@
-var core = require("./core.js");
-try{
-  var http = require('http');
-  var qs = require('querystring');
-}
-catch (err){
-  exit(1);
-}
+import http from 'http';
+import * as qs from querystring ;
+import {translate} from './core';
 
 http.createServer(function (req, res) {
 
