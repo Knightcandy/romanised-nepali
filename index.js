@@ -12,7 +12,7 @@ http.createServer(function (req, res) {
     req.on('end', function() {
       var data = qs.parse(body);
       res.writeHead(200);
-      var converted=core.translate(data.data,data.smartConvert);
+      var converted=translate(data.data,data.smartConvert);
       res.end(converted);
     });
   } else {
