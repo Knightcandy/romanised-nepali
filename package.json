@@ -19,6 +19,9 @@
   "author": "Sujan Poudel",
   "license": "MIT",
   "bin": {
-    "snippet": "./index.js"
+    "romotonepali": "./index.js"
+  },
+  "dependencies": {
+    "http": "0.0.0"
   }
 }
