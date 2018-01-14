@@ -1,3 +1,11 @@
+/**
+ * File: core.js
+ * Created Date: Sunday January 14th 2018
+ * Author: modifided from http://mj89sp3sau2k7lj1eg3k40hkeppguj6j-a-sites-opensocial.googleusercontent.com/gadgets/ifr?url=http://www.gstatic.com/sites-gadgets/iframe/iframe.xml&container=enterprise&view=default&lang=en&country=ALL&sanitize=0&v=1cbf636963b6b8f8&libs=core&parent=http://www.weallnepali.com/about-nepal/type-in-nepali#up_scroll=no&up_iframeURL=http://www.ashesh.com.np/linknepali-unicode2.php?nplaski%3Dan298iodp21458378%26cdf%3Draye65shw63%26sec%3Di33n66%26gnhkei%3Ddie7734jf7u37ur73u%26n%3Dueyfjrd73igkmewf74kg7rkfguuni%3Dureyfmkf74jt74ity4itr748g%26jduedkeuidokvhde%3Djduek38i47rugkgf948gkrlor04irkjf8%26jdhe%3Du7uye6ryer53yy6fyd6%26ijde%3Dncudj8ud7e%26id%3Duni2&st=e%3DAIHE3cBjQstD%252FgM6NeeJRVYbKyulGE8eSwpNN%252B18b%252FD53TKy%252F5P4q9Sta4M22H9SOdDqaFlCnZys4lFmFvK5S0Dvk4WWAixvQBYHZMRG3vBeIC9LbL1hSIJ8Djos%252FVFiOktCSNzsa9ks%26c%3Denterprise&rpctoken=-346160398248031709
+ * Last Modified:Sunday, January 14th 2018, 11:28:58 am
+ * Modifided by:Sujan Poudel
+ */
+
 var uD = new Object;
 var sW = new Object;
 var cR = new Object;
