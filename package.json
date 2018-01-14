@@ -1,6 +1,6 @@
 {
   "name": "romonisednepali",
-  "version": "1.0.0",
+  "version": "v1.01",
   "description": "Node module to convert romonised nepali to unicode Nepali characters",
   "main": "index.js",
   "repository": {
