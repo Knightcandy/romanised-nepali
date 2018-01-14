@@ -45,6 +45,19 @@ console.log(converted);
 ```
 It supports all the conversion techniques as written [here](http://www.ashesh.com.np/nepali-unicode.php)
 
+This module adds a executable ```romonisednepali``` on /bin/ (not sure /bin or not) 
+which can be executed from teminal to run a converter server on port:8058 which receives a post request as
+```JSON
+{   
+    data:"namaskar", //characters to be converted
+    smartconvert:True //Smart conversion
+}
+```
+And gives the unicode value of the converted characters as
+```JSON
+#¬2344##¬2350##¬2360##¬2381##¬2340##¬2375#
+```
+
 ## Support
 
 Please [open an issue](https://github.com/psuzn/romonisedNepali/issues/new) for support.
