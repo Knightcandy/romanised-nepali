@@ -1,6 +1,6 @@
-# README Boilerplate
+# RomonisedNepali
 
-A template of README best practices to make your README simple to understand and easy to use. 
+An node module to convert romonised input to nepali unicode characters 
 
 ## Table of Contents
 
