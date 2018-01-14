@@ -3,9 +3,6 @@
   "version": "1.0.0",
   "description": "Node module to convert romonised nepali to unicode Nepali characters",
   "main": "index.js",
-  "scripts": {
-    "test": "testromotonepali"
-  },
   "repository": {
     "type": "git",
     "url": "romoToNepali"
