@@ -14,8 +14,8 @@ var qs = require('querystring');
 const PORT =8058;
 function startServer()
 {
+  console.log("Listning on port "+PORT);
     http.createServer(function (req, res) {
-
         if (req.method === 'POST') {
           let body = '';
           req.on('data', function(chunk) {
