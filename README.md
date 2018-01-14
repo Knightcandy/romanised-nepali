@@ -1,6 +1,7 @@
 # RomonisedNepali
 
-An node module to convert romonised input to nepali unicode characters 
+An node module to convert romonised input to nepali unicode characters. 
+This node module is based on Romonised Nepali to Unicode converter from [ashesh.com.np](http://www.ashesh.com.np/nepali-unicode.php)
 
 ## Table of Contents
 
@@ -11,31 +12,43 @@ An node module to convert romonised input to nepali unicode characters
 
 ## Installation
 
-Download to your project directory, add `README.md`, and commit:
 
 ```sh
-curl -LO http://git.io/Xy0Chg
-git add README.md
-git commit -m "Use README Boilerplate"
+$ npm install -g romonisednepali 
 ```
+OR 
 
+Manully:
+
+```sh
+$ git clone  https://github.com/psuzn/romonisedNepali.git
+$ cd romonisedNepali
+$ npm install -g 
+```
 ## Usage
 
-Replace the contents of `README.md` with your project's:
+- Import it into your project
+```js
+let conveter=requre('romonisednepali');
+let converted=converter.comvert("namaskar");
+console.log(converted);
+//नमस्कार 
 
-- Name
-- Description
-- Installation instructions
-- Usage instructions
-- Support instructions
-- Contributing instructions
+```
+if you passed characters inside {} they won't be converted
+```js
+let conveter=requre('romonisednepali');
+let converted=converter.comvert("namaste {Nepal}");
+console.log(converted);
+//नमस्ते Nepal 
 
-Feel free to remove any sections that aren't applicable to your project.
+```
+It supports all the conversion techniques as written [here](http://www.ashesh.com.np/nepali-unicode.php)
 
 ## Support
 
-Please [open an issue](https://github.com/fraction/readme-boilerplate/issues/new) for support.
+Please [open an issue](https://github.com/psuzn/romonisedNepali/issues/new) for support.
 
 ## Contributing
 
-Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/fraction/readme-boilerplate/compare/).
+Please contribute using [Github Flow](https://guides.github.com/introduction/flow/). Create a branch, add commits, and [open a pull request](https://github.com/psuzn/romonisedNepali/compare/).
