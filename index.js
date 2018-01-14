@@ -1,3 +1,4 @@
+#!/usr/bin/node 
 import http from 'http';
 import * as qs from querystring ;
 import {translate} from './core';
