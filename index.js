@@ -33,9 +33,15 @@ function startServer()
         }
       }).listen(PORT);
 }
-function convert(raw,smartConvert)
+function convert(raw,smartConvert=true)
 {
-    return translate(raw,smartConvert);
+    let charactersUnicode= core.translate(data.data,data.smartConvert).split("#");
+    let convertedCharacters="";
+    charactersUnicode.forEach(element => {
+      if(element)
+        convertedCharacters+=String.fromCharCode(element.replace("¬",""));
+    });
+    return convertedCharacters;
 }
 if (require.main === module) {
     startServer();
