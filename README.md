@@ -47,7 +47,7 @@ It supports all the conversion techniques as written [here](http://www.ashesh.co
 
 This module adds a executable ```romonisednepali``` on /bin/ (not sure /bin or not) 
 which can be executed from teminal to run a converter server on port:8058 which receives a post request as
-```JSON
+```
 {   
     data:"namaskar", //characters to be converted
     smartconvert:True //Smart conversion
